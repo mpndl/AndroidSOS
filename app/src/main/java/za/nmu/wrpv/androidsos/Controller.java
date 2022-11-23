@@ -192,7 +192,7 @@ public class Controller {
                     Square sq2 = squares[i][j+1];
                     Square sq3 = squares[i][j+2];
 
-                    if(sq1.color != -1 && sq1.color == sq2.color && sq2.color == sq3.color && sq1.color == getCurrentPlayerColor())
+                    //if(sq1.color != -1 && sq1.color == sq2.color && sq2.color == sq3.color && sq1.color == getCurrentPlayerColor())
                         if(!(sq1.sos && sq2.sos && sq3.sos))
                             setSOS(sq1, sq2, sq3);
                 }
@@ -208,7 +208,7 @@ public class Controller {
                     Square sq2 = squares[i+1][j];
                     Square sq3 = squares[i+2][j];
 
-                    if(sq1.color != -1 && sq1.color == sq2.color && sq2.color == sq3.color && sq1.color == getCurrentPlayerColor())
+                    //if(sq1.color != -1 && sq1.color == sq2.color && sq2.color == sq3.color && sq1.color == getCurrentPlayerColor())
                         if(!(sq1.sos && sq2.sos && sq3.sos))
                             setSOS(sq1, sq2, sq3);
                 }
@@ -224,7 +224,7 @@ public class Controller {
                     Square sq2 = squares[i+1][j+1];
                     Square sq3 = squares[i+2][j+2];
 
-                    if(sq1.color != -1 && sq1.color == sq2.color && sq2.color == sq3.color && sq1.color == getCurrentPlayerColor())
+                    //if(sq1.color != -1 && sq1.color == sq2.color && sq2.color == sq3.color && sq1.color == getCurrentPlayerColor())
                         if(!(sq1.sos && sq2.sos && sq3.sos))
                             setSOS(sq1, sq2, sq3);
                 }
@@ -241,7 +241,7 @@ public class Controller {
                     Square sq2 = squares[i+1][j-1];
                     Square sq3 = squares[i+2][j-2];
 
-                    if(sq1.color != -1 && sq1.color == sq2.color && sq2.color == sq3.color && sq1.color == getCurrentPlayerColor())
+                    //if(sq1.color != -1 && sq1.color == sq2.color && sq2.color == sq3.color && sq1.color == getCurrentPlayerColor())
                         if(!(sq1.sos && sq2.sos && sq3.sos))
                             setSOS(sq1, sq2, sq3);
                 }
